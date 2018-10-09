@@ -1,22 +1,22 @@
 public class HoaQua {
-    private String tenqua;
+    private String mausac;
     private int soluong;
 
     public HoaQua(){
-        this.tenqua = "";
+        this.mausac = "";
         this.soluong = 0;
     }
 
-    public HoaQua(String tq, int sl){
-        this.tenqua = tq;
+    public HoaQua(String ms, int sl){
+        this.mausac = ms;
         this.soluong = sl;
     }
-    public void setTenqua(String tenqua) {
-        this.tenqua = tenqua;
+    public void setMausac(String mausac) {
+        this.mausac = mausac;
     }
 
-    public String getTenqua() {
-        return tenqua;
+    public String getMausac() {
+        return mausac;
     }
     public int getSoluong() {
         return soluong;
