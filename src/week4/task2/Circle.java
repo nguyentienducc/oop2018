@@ -27,15 +27,15 @@ public class Circle extends Shape {
     
     // dien tich
     public double getArea(){
-        double dt =  getRadius() * getRadius()*getPI();// dien tich bang pi*r(binh phuong)
+        double s =  getRadius() * getRadius()*getPI();// dien tich bang pi*r(binh phuong)
 
-        return dt;//ra ve gia tri cua dien tich
+        return s;//ra ve gia tri cua dien tich
     }
 
     // chu vi
     public double getPerimeter(){
-        double cv = 2 * getPI() * getRadius();//chu vi bang 2pi nhaan voi r
-        return cv;//tra ve gia tri cua chu vi
+        double c = 2 * getPI() * getRadius();//chu vi bang 2pi nhaan voi r
+        return c;//tra ve gia tri cua chu vi
     }
 
     public final double getPI(){
