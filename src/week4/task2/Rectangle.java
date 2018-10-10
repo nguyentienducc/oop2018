@@ -34,13 +34,13 @@ public class Rectangle extends Shape {
 
 
     public double getArea(){
-        double dt= getLenth() * getWidth();
-        return dt;
+        double s= getLenth() * getWidth();
+        return s;
     }
 
     public double getPerimeter(){
-        double cv = 2 * (getWidth() + getLenth());
-        return cv;
+        double c = 2 * (getWidth() + getLenth());
+        return c;
     }
 
     public String toString(){
