@@ -1,4 +1,8 @@
 package week7.task1;
+public abstract class BinaryExpression extends Expression{
 
-public class BinaryExpression {
+    @Override
+    abstract public int evaluate();
+    abstract public Expression left();
+    abstract public Expression right();
 }
