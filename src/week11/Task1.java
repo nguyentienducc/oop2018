@@ -4,6 +4,10 @@
  * and open the template in the editor.
  */
 package week11;
+/**
+ *
+ * @author Admin
+ */
 
 public class Task1 {
     public <T> void swap(T[] arr, int i, int j) {
