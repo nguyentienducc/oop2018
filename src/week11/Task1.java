@@ -27,11 +27,11 @@ public class Task1 {
     public static void main(String[] args) {
         Task1 n = new Task1();
         Integer[] I = {2, 6, 1, 9, 7, 3};
-        Double[] F = {2.6, 3.5, 8.9, 9.9, 7.4};
+        Double[] D = {2.6, 3.5, 8.9, 9.9, 7.4};
 
         Character[] C = {'d', 'u', 'c', 'a', 'b'};
         n.sapxep(I);
-        n.sapxep(F);
+        n.sapxep(D;
         n.sapxep(C);
     }
 }
